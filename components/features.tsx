@@ -8,9 +8,10 @@ export default function Features() {
 
   const [x, setX] = useState(100);
 
-  const calculateEarnings = (membershipCost) => {
-    return membershipCost * 0.1475;
-  }
+const calculateEarnings = (membershipCost: number) => {
+  return membershipCost * 0.1475;
+};
+
 
   return (
     <section>
