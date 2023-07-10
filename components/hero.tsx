@@ -35,7 +35,7 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">Peach Fit</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Join the Peach Fit network where gyms earn up to 3x per booking than competitors, all while become an owner in the network building a stronger fitness community for all.</p>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">A gym owned fitness network where gyms earn up to 3x per booking than competitors, all while become an owner in the network building a stronger fitness community for all.</p>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">The first 1,000 locations to sign up receive in aggregate <b>10% ownership</b> in the network.</p>
             {/* Iframe */}
           <div id="getWaitlistContainer" data-waitlist_id="8890" data-widget_type="WIDGET_2" className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"></div>
