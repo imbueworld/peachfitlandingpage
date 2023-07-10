@@ -35,22 +35,18 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">Peach Fit</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Join our network where you earn up to 3x per booking, and become an owner in the network building a stronger fitness community for all</p>
-            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
-              <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
-              </div>
-              <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
-              </div>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Join the Peach Fit network where gyms earn up to 3x per booking than competitors, all while become an owner in the network building a stronger fitness community for all.</p>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">The first 1,000 locations to sign up receive in aggregate <b>10% ownership</b> in the network.</p>
+            {/* Iframe */}
+          <div id="getWaitlistContainer" data-waitlist_id="8890" data-widget_type="WIDGET_2" className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"></div>
+          <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css" />
             </div>
+            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+        
           </div>
 
-          {/* Iframe */}
-          <div id="getWaitlistContainer" data-waitlist_id="8890" data-widget_type="WIDGET_2"></div>
-          <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css" />
 
-          <DynamicModalVideo
+          {/* <DynamicModalVideo
             thumb={VideoThumb}
             thumbWidth={1024}
             thumbHeight={576}
@@ -58,7 +54,7 @@ export default function Hero() {
             video="/videos/video.mp4"
             videoWidth={1920}
             videoHeight={1080}
-          />
+          /> */}
 
         </div>
 
