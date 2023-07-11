@@ -39,7 +39,7 @@ export default function Features() {
             axis="x"
             x={x}
             xmin={30}
-            xmax={300}
+            xmax={500}
             onChange={({ x }) => setX(x)}
             
           />
