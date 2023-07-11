@@ -19,12 +19,12 @@ export default function Hero() {
     };
   }, []);
 
-  const clickPopup = (event) => {
-    event.preventDefault();
+  // const clickPopup = (event) => {
+  //   event.preventDefault();
   
-    // Pass your waitlist ID
-    waitlist.openPopup("wWmAy5F9pdyqgLop5T6h")
-  }
+  //   // Pass your waitlist ID
+  //   waitlist.openPopup("wWmAy5F9pdyqgLop5T6h")
+  // }
 
   return (
     <section>
