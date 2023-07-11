@@ -38,7 +38,7 @@ export default function Hero() {
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
             It's not just a fitness platform, it's a movement towards stronger, more unified fitness communities. Gyms don't just earn up to 3x more than competitors, they become owners in the network.         
             </p>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">The first 1,000 locations to sign up receive in aggregate <b>10% ownership</b> in the network. Be the first to know when we launch.</p>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">The first 1,000 locations to sign up receive in aggregate <b>10% ownership</b> in the network. Help us beta test when the network goes live. Be the first to know when we launch.</p>
             {/* Iframe */}
           <div id="getWaitlistContainer" data-waitlist_id="8890" data-widget_type="WIDGET_2" className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"></div>
           <link rel="stylesheet" type="text/css" href="https://prod-waitlist-widget.s3.us-east-2.amazonaws.com/getwaitlist.min.css" />
