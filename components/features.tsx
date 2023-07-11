@@ -7,7 +7,7 @@ import Slider from 'react-input-slider';
 
 export default function Features() {
 
-  const [x, setX] = useState(100);
+  const [x, setX] = useState(150);
 
   const calculateEarnings = (membershipCost: number) => {
     return membershipCost * 0.1475;
@@ -46,7 +46,7 @@ export default function Features() {
           {/* <div className="space-y-4"></div> */}
           <div className='flex flex-col items-center justify-center text-center mb-10'>
             <p style={{ marginTop: '10px', color: '#151719' }}>Membership Cost: ${x}</p>
-            <p style={{ marginTop: '10px', color: '#151719' }}>Estimated earnings per visit: ${calculateEarnings(x)}</p>
+            <p style={{ marginTop: '10px', color: '#151719' }}>Estimated earnings per visit: <b>${calculateEarnings(x)}</b></p>
           </div>
         </div>
 
